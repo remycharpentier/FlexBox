@@ -1,0 +1,29 @@
+/*
+[class*="col"]:nth-child(odd){ ** Permet de prendre tout les col ( col-3 col-6 etc) **
+    background: red;
+}
+[class*="col"]:nth-child(even){
+    background: blue;
+}
+*/
+.carousel{
+    height: 300px;
+    overflow: hidden;
+}.alert-orange{
+    background: #e17055;
+}
+.bg-profil{
+    background: url(../img/pexels-photo-220201.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px  1px 2px black, /*Contour text */
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
+}
+.bg-profil div{
+    background: rgba(0,0,0,.5); /*couleur et opacité du background seulement*/
+    padding: 10px;
+    color: #fff;
+}
